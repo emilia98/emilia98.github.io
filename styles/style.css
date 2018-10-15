@@ -109,6 +109,38 @@ i {
 }
 */
 
+.card {
+    float: left;
+}
+
+/*
+#react .card-custom-title {
+    background-color: rgba(97, 219, 251, 0.1);
+}
+
+
+#angular .card-custom-title{
+    background-color: rgba(195, 14, 46, 0.1)
+}
+
+#html .card-custom-title{
+    background-color: rgba(228, 77, 38, 0.1)
+}*/
+#react .card-custom-title h3 *{
+    color: rgb(97, 219, 251);
+}
+
+#angular .card-custom-title h3 *{
+    color: rgb(195, 14, 46);
+}
+
+#html .card-custom-title h3 *{
+    color: rgb(228, 77, 38);
+}
+
+#css .card-custom-title h3 *{
+    color: rgb(21, 114, 182);
+}
 
 @media(min-width: 1199px) {
     .section-item {
