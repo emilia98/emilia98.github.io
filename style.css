@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap');
+
+:root {
+    --main-purple: #BDB1FF;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+#update-line {
+    background-color: var(--main-purple);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.125em;
+}
+
+#update-line .emoji {
+    font-size: 1.5em;
+    margin: 0 10px;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.mac-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mac-menu-actions {
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mac-menu-button {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+}
+
+.mac-menu-button:nth-child(1) {
+    background-color: #e05f58;
+}
+
+.mac-menu-button:nth-child(2) {
+    background-color: #eebc3f;
+}
+
+.mac-menu-button:nth-child(3) {
+    background-color:  #76ca4f;
+}
+
+.modes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+
+}
+
+.modes button {
+    border: none;
+    width: 35px;
+    height: 35px;
+    background: #234939;
+    border-radius: 17.5px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    margin: 50px auto 0;
+    width: 80%;
+}
+
+h1 span {
+    color: var(--main-purple);
+    text-decoration: underline;
+}
+
+header div.introduction {
+    width: 75%;
+    margin: 50px auto 30px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.tech-stack-group {
+    border: 2px dashed var(--main-purple);
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.tech-stack-g-t {
+    font-size: 0.925em;
+    color: var(--main-purple);
+    margin: 0 0 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.ts-item {
+    display: inline-block;
+    text-align: center;
+    margin: 5px 10px;
+}
+
+.ts-item img {
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin: 10px auto;
+    object-fit: contain;
+}
+
+.ts-item div {
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.work-exp {
+    margin-top: 30px;
+}
+
+.work-exp .work-exp-c{
+    margin: 30px auto;
+}
+
+.work-exp-col {
+    margin: 0 0 20px;
+}
+
+span.keyword {
+    color: var(--main-purple);
+}
+
+.wrkspc {
+    border: 2px dashed var(--main-purple);
+    
+}
+
+.wrkspc-t {
+    margin: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.wrkspc-t p{
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.wrkspc-img img {
+    width: 50px;
+    height: 50px;
+    object-fit: scale-down;
+}
+
+.position {
+    margin: 10px;
+}
+
+.position .title {
+    font-size: 1.125em;
+    font-weight: 600;
+}
+
+.position .period {
+    font-weight: 700;
+    color: var(--main-purple);
+}
+
+.wrkspc .tech-stack, .wrkspc .wrkspc-desc {
+    margin: 0 10px;
+}
+
+.wrkspc .tech-stack {
+    padding-bottom: 10px;
+}
+
+.tech-stack .tech-stack-c {
+    margin: 10px 5px;
+    display: inline-block;
+}
+
+.tech-stack-c img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.wrkspc-desc-ul {
+    padding: 10px;
+}
+
+.wrkspc-desc-li {
+    font-weight: 500;
+    display: flex;
+    align-items: baseline;
+}
+
+.wrkspc-desc-li .checkmark {
+    padding: 0 10px;
+    font-size: 1.125em;
+    color: var(--main-purple);
+    font-weight: 700;
+}
+
+.wrkspc-desc ul li {
+    font-weight: 500;
+}
+
+
+.wrkspc-sec-t {
+    color: var(--main-purple);
+    font-weight: 600;
+    padding: 5px 0;
+}
